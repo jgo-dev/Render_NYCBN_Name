@@ -3,7 +3,7 @@ import plotly.graph_objs as go
 import pandas as pd
 from dash import Dash, Input, Output, html, dcc
 
-df = pd.read_csv('NYC_Baby_Names_2012-2021.csv')
+df = pd.read_csv('app/NYC_Baby_Names_2012-2021.csv')
 
 app = Dash(__name__)
 
